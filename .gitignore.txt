@@ -1,0 +1,122 @@
+####################################
+# Python
+####################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+####################################
+# Virtual Environments
+####################################
+venv/
+env/
+ENV/
+.venv/
+gemini_env/
+.python-version
+pyvenv.cfg
+
+####################################
+# Installed Packages (IMPORTANT)
+####################################
+site-packages/
+*.dist-info/
+pip-wheel-metadata/
+
+####################################
+# Django
+####################################
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django cache
+*/migrations/__pycache__/
+
+####################################
+# Environment Variables
+####################################
+.env
+.env.*
+*.env
+
+####################################
+# Static & Media
+####################################
+staticfiles/
+media/
+
+####################################
+# Testing & Coverage
+####################################
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+####################################
+# Jupyter Notebook
+####################################
+.ipynb_checkpoints/
+
+####################################
+# Build & Packaging
+####################################
+build/
+dist/
+*.egg-info/
+
+####################################
+# Node / Frontend (optional)
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+####################################
+# IDEs & Editors
+####################################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+####################################
+# OS Files
+####################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+####################################
+# Logs
+####################################
+logs/
+*.log
+
+####################################
+# Temporary Files
+####################################
+*.tmp
+*.bak
+*.swp
+*.lock
+
+####################################
+# Celery / Redis (if used)
+####################################
+celerybeat-schedule
+celerybeat.pid
+
+####################################
+# Docker
+####################################
+.dockerignore
+
+####################################
+# Mac / Linux
+####################################
+*.pid
